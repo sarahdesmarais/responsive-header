@@ -1,0 +1,71 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #18294f;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 0;
+}
+
+/* h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+} */
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* .nav li {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #a63f38;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+
+a {
+  color: #6c8fe0;
+  text-decoration: none;
+  display: flex;
+  padding: .3em 0 .5em;
+}
+
+a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
